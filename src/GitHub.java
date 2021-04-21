@@ -15,6 +15,7 @@ public class GitHub {
      */
     public static void main(String[] args) {
         System.out.println("Soy Edgar Eduardo");
+        System.out.println("hellow my friends");
     }
     
 }
