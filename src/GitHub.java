@@ -16,6 +16,18 @@ public class GitHub {
     public static void main(String[] args) {
         System.out.println("Soy Edgar Eduardo");
         System.out.println("hellow my friends");
+        
+     
+    int resultado = suma(5,10);
+        
+        System.out.println(resultado);
     }
-    
+     public static int suma (int inicio,int fin){
+        if(fin>inicio) 
+     return fin+suma(inicio,fin-1);
+     
+     else{
+     return fin;
+}
+     }
 }
